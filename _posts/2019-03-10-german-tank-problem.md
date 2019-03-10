@@ -2,7 +2,7 @@
 layout: post
 title: "The German Tank Problem"
 description:
-date: 2018-03-10
+date: 2019-03-10
 tags: estimation
 comments: true
 ---
