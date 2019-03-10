@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The German Tank Problem"
+title: "Frequentist German Tank Problem"
 description:
 date: 2019-03-10
 tags: estimation
@@ -24,4 +24,4 @@ $$
 
 ## Problem definition
 
-The tank factory stamps each armored vehicle produced with an integer serial number starting from 1. The serial number of the last tank built equals the number of tanks manufactured in total, $n$.
+German tanks in World War II had several parts with serial numbers.
