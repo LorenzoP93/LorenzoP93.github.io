@@ -1,5 +1,5 @@
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/LorenzoP93/LorenzoP93.github.io/tree/master/figures/photo_jpg.jpg "photo_jpg")
 
 
 Welcome to my blog.
