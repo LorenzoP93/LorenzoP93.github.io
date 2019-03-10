@@ -1,0 +1,27 @@
+# Site settings
+title: Lorenzo Pradella
+description: A research blog.
+
+author: Lorenzo Pradella
+email: pralorenzo@gmail.com
+github_username: LorenzoP93
+
+#baseurl: "/paper-jekyll-theme" # the subpath of your site, e.g. /blog
+#url: "https://deadbeef.me" # the base hostname & protocol for your site
+
+google_analytics_id: UA-109157218-1
+disqus_id:
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title
+
+sass:
+    style: compressed
+
+exclude: [vendor]
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
