@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/paper-cover-photo.png">
+  <img src="./figures/paper-cover-photo.png">
   <p align="center">
   A minimalistic Jekyll Theme
   <br>
