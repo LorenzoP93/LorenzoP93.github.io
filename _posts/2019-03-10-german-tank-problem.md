@@ -30,9 +30,8 @@ With this information statisticians have been able to estimate how many tanks we
 
 ## Problem definition
 
-Assuming we have a population of unknown size $N$, which is labeled using serial number $(1,\cdots,N)$ and a random sample $X = (X_1,\cdots,X_k)$ of size $k\leq N$ is observed.\\
-How could we make an inference of $N$ through the observations $X$?
-So we found out $k$ tanks where the number $X_i$ corresponds to the serial number of the $i^{th}$ tank.\\
+Assuming we have a population of unknown size $N$, which is labeled using serial number $(1,\cdots,N)$ and we found out $k\leq N$ tanks $X = (X_1,\cdots,X_k)$, where the number $X_i$ corresponds to the serial number of the $i^{th}$ tank.\\
+How could we make an inference of $N$ through the observations $X$?\\
 The probability mass function is:
 
 $$P_N(x)={\begin{cases}{\frac {1}{N}}&\mathrm {for} \ x\leq N,\\[8pt]0&\mathrm {for} \ x>N\end{cases}}$$
@@ -59,9 +58,12 @@ So the following holds
 
 $$\sum_{x = k}^N \binom{x-1}{k-1} = \binom{N}{k} $$
 
+Now we have the elements to compute the expectation: 
+$$ \begin{align} \Expect[M] &= \frac {\sum_{x = k}^N x\binom{x-1}{k-1}}{\binom{N}{k}} \\ &= \frac {\sum_{x = k}^N k\binom{x}{k}}{\binom{N}{k}} \\ &= k\frac{\binom{N+1}{k+1}}{\binom{N}{k}} = k\frac {N+1}{k+1} \end{align}. $$
 
-
-
+  The bias of this estimate is $(k-N)/(k+1)$, so only observing the entirety of production we are sure to see the largest serial number. In order to correct the bias we can rewrite the last expression to obtain:
+  
+$$\hat{N} = M\frac{k+1}{k}-1$$
 
 
 
