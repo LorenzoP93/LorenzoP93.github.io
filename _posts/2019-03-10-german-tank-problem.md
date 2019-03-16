@@ -35,7 +35,7 @@ How could we make an inference of $N$ through the observations $X$?
 So we found out $k$ tanks where the number $X_i$ corresponds to the serial number of the $i^{th}$ tank.\\
 The probability mass function is:
 
-f_N(x)={\begin{cases}{\frac {1}{N}}&\mathrm {for} \ x\leq N,\\[8pt]0&\mathrm {for} \ x>N\end{cases}}
+$$f_N(x)={\begin{cases}{\frac {1}{N}}&\mathrm {for} \ x\leq N,\\[8pt]0&\mathrm {for} \ x>N\end{cases}}$$
 
 
 
