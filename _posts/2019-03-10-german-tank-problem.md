@@ -39,7 +39,10 @@ $$f_N(x)={\begin{cases}{\frac {1}{N}}&\mathrm {for} \ x\leq N,\\[8pt]0&\mathrm {
 
 thus the likelihood function for the sample of $k$ tanks (assuming they are an independent random sample, which is a not trivial assumption since in a sampling without remplacement observations are not independent but if we suppose $N\gg k $ the error introduced by assuming the independence is not large) is the following:
 
-\mathcal {L}
+$$\mathcal {L} (N; x_1, \cdots,x_k) ={\begin{cases}{\frac {1}{N^k}}&\mathrm {for} \ \mathrm {max} (x_i)\leq N,\\[8pt]0&\mathrm {for} \ \mathrm {max} (x_i)>N\end{cases}}$$
+
+By intuition more observation we have the better will be the estimate, where the maximum likelihood estimator of $N$ is $\mathrm {max} (x_i)$
+
 
 
 
