@@ -35,13 +35,16 @@ How could we make an inference of $N$ through the observations $X$?
 So we found out $k$ tanks where the number $X_i$ corresponds to the serial number of the $i^{th}$ tank.\\
 The probability mass function is:
 
-$$f_N(x)={\begin{cases}{\frac {1}{N}}&\mathrm {for} \ x\leq N,\\[8pt]0&\mathrm {for} \ x>N\end{cases}}$$
+$$P_N(x)={\begin{cases}{\frac {1}{N}}&\mathrm {for} \ x\leq N,\\[8pt]0&\mathrm {for} \ x>N\end{cases}}$$
 
 thus the likelihood function for the sample of $k$ tanks (assuming they are an independent random sample, which is a not trivial assumption since in a sampling without remplacement observations are not independent but if we suppose $N\gg k $ the error introduced by assuming the independence is not large) is the following:
 
 $$\mathcal {L} (N; x_1, \cdots,x_k) ={\begin{cases}{\frac {1}{N^k}}&\mathrm {for} \ \mathrm {max} (x_i)\leq N,\\[8pt]0&\mathrm {for} \ \mathrm {max} (x_i)>N\end{cases}}$$
 
-By intuition more observation we have the better will be the estimate, where the maximum likelihood estimator of $N$ is $\mathrm {max} (x_i)$
+More observation we have the better will be the estimate, where the maximum likelihood estimator of $N$ is $M = \mathrm {max} (x_1, \cdots,x_k)$, the largest serial number.\\
+Intuitively $M$ is a bad estimator because it will underestimate $N$ on average. To compute the bias we have to derive the expectation of $M$, so let's start by finding out the CDF of $M$, for $x \geq k$ it is:
+
+$$ \begin{align} \Prb(M \leq x) = F_M(x) &= \Prb(X_1 \leq x,\cdots, X_k \leq x) \ &= \Prb(X_1 \leq x)\Prb(X_2 \leq x | X_1 \leq x)\ldots  \Prb(X_k \leq x | X_i \leq x \forall i = 1, \cdots, k - 1) \ &= $$
 
 
 
