@@ -37,5 +37,7 @@ The probability mass function is:
 
 $$f_N(x)={\begin{cases}{\frac {1}{N}}&\mathrm {for} \ x\leq N,\\[8pt]0&\mathrm {for} \ x>N\end{cases}}$$
 
+thus the likelihood function for the sample of $k$ tanks (assuming they are an independent random sample \footnote{111111})
+
 
 
