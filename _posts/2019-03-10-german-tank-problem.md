@@ -34,7 +34,7 @@ Assuming we have a population of unknown size $N$, which is labeled using serial
 How could we make an inference of $N$ through the observations $X$?\\
 The probability mass function is:
 
-$$P_N(x)={\begin{cases}{\frac {1}{N}}&\mathrm {for} \ x\leq N,\\[8pt]0&\mathrm {for} \ x>N\end{cases}}$$
+$$P_N(x)={\begin{cases}{\frac {1}{N}}&\mathrm {for} \ x\leq N,\\[8pt]0&\mathrm {otherwise}\end{cases}}$$
 
 thus the likelihood function for the sample of $k$ tanks (assuming they are an independent random sample, which is a not trivial assumption since in a sampling without remplacement observations are not independent but if we suppose $N\gg k $ the error introduced by assuming the independence is not large) is the following:
 
