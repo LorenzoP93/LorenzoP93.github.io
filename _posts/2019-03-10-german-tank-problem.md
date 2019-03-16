@@ -44,12 +44,12 @@ $$\mathcal {L} (N; x_1, \cdots,x_k) ={\begin{cases}{\frac {1}{N^k}}&\mathrm {for
 More observation we have the better will be the estimate, where the maximum likelihood estimator of $N$ is $M = \mathrm {max} (x_1, \cdots,x_k)$, the largest serial number.\\
 Intuitively $M$ is a bad estimator because it will underestimate $N$ on average. To compute the bias we have to derive the expectation of $M$, so let's start by finding out the CDF of $M$, for $x \geq k$ it is:
 
-\begin{align} P(M \leq x) = F_M(x) &= P(X_1 \leq x,\cdots, X_k \leq x) \ &= P(X_1 \leq x)P(X_2 \leq x | X_1 \leq x)\ldots  P(X_k \leq x | X_i \leq x \forall i = 1, \cdots, k - 1) \ &= \frac {\binom{x}{k}}{\binom{N}{k}}  \end{align} 
+$$\begin{align} P(M \leq x) = F_M(x) &= P(X_1 \leq x,\cdots, X_k \leq x) \ &= P(X_1 \leq x)P(X_2 \leq x | X_1 \leq x)\ldots  P(X_k \leq x | X_i \leq x \forall i = 1, \cdots, k - 1) \ &= \frac {\binom{x}{k}}{\binom{N}{k}}  \end{align} $$
 
 
 Then the probability mass function is:
 
-$$\begin{align} \Prb(M = x) = f_M(x) &= F_M(x) - F_M(x-1) \ &= $$
+$$\begin{align} \Prb(M = x) = f_M(x) &= F_M(x) - F_M(x-1) \ &= \frac {\binom{x}{k}}{\binom{N}{k}} - \frac {\binom{x-1}{k}}{\binom{N}{k}}   = \frac {\binom{x-1}{k-1}}{\binom{N}{k}}\end{align} $$
 
 
 
