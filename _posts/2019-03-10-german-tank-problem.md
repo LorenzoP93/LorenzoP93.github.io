@@ -30,14 +30,18 @@ With this information statisticians have been able to estimate how many tanks we
 
 ## Problem definition
 
-Assuming we have a population of unknown size $N$, which is labeled using serial number ${1,\cdots,N}$ and a random sample $X = (X_1,\cdots,X_k)$ of size $k\leq N$ is observed.\\
+Assuming we have a population of unknown size $N$, which is labeled using serial number $(1,\cdots,N)$ and a random sample $X = (X_1,\cdots,X_k)$ of size $k\leq N$ is observed.\\
 How could we make an inference of $N$ through the observations $X$?
 So we found out $k$ tanks where the number $X_i$ corresponds to the serial number of the $i^{th}$ tank.\\
 The probability mass function is:
 
 $$f_N(x)={\begin{cases}{\frac {1}{N}}&\mathrm {for} \ x\leq N,\\[8pt]0&\mathrm {for} \ x>N\end{cases}}$$
 
-thus the likelihood function for the sample of $k$ tanks (assuming they are an independent random sample \footnote{111111})
+thus the likelihood function for the sample of $k$ tanks (assuming they are an independent random sample, which is a not trivial assumption since in a sampling without remplacement observations are not independent but if we suppose $N\gg k $ the error introduced by assuming the independence is not large) is the following:
+
+\mathcal {L}
+
+
 
 
 
