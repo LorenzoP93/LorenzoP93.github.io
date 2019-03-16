@@ -59,7 +59,7 @@ So the following holds
 $$\sum_{x = k}^N \binom{x-1}{k-1} = \binom{N}{k} $$
 
 Now we have the elements to compute the expectation: 
-$$ \begin{align} \Expect[M] &= \frac {\sum_{x = k}^N x\binom{x-1}{k-1}}{\binom{N}{k}} \\ &= \frac {\sum_{x = k}^N k\binom{x}{k}}{\binom{N}{k}} \\ &= k\frac{\binom{N+1}{k+1}}{\binom{N}{k}} = k\frac {N+1}{k+1} \end{align}. $$
+$$ \begin{align} \Expect[M] = \frac {\sum_{x = k}^N x\binom{x-1}{k-1}}{\binom{N}{k}} = \frac {\sum_{x = k}^N k\binom{x}{k}}{\binom{N}{k}} = k\frac{\binom{N+1}{k+1}}{\binom{N}{k}} = k\frac {N+1}{k+1} \end{align}. $$
 
   The bias of this estimate is $(k-N)/(k+1)$, so only observing the entirety of production we are sure to see the largest serial number. In order to correct the bias we can rewrite the last expression to obtain:
   
