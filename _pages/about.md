@@ -7,7 +7,7 @@ permalink: /about/
 ----
 <img src="../figures/about.png" style="width: 300px;margin-right: 10px" img align="left">
 
-Welcome to my blog!
+Welcome to my blog!\n
 I am Lorenzo a passionated data scientist always looking for new stimulus and problems to solve in an elegant way. I graduated from Università degli studi di Padova with a master's degree in Mathematical Engineering. Before leaving us the great physicist Richard Feynman wrote on the blackboard: "Know how to solve every problem that has been solved", I want to follow this advice because ideas come to people ready to catch them, only being prepared can lead you to see a world behind an equation written down on a piece of paper.
 
 
