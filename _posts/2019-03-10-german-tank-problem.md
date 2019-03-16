@@ -25,7 +25,7 @@ $$
 ## Introduction
 
 During World War II Allied forces tried to defeat Germany and in order to do so any information was used. Surely having a clear view on the German production of tanks could make a great difference to balance a counter strategy.\\
-These tanks were built out of parts with imprinted serial numbers in an ascending sequence, thus, when a tank has been distroyed Allied forces gained access to these serial numbers.\\
+These tanks were built out of parts with imprinted serial numbers in an ascending sequence, thus, when a tank has been distroyed, Allied forces gained access to these serial numbers.\\
 With this information statisticians have been able to estimate how many tanks were produced.
 
 ## Problem definition
