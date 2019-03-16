@@ -24,12 +24,12 @@ $$
 
 ## Introduction
 
-During World War II Allied forces tried to defeat Germany and in order to do so any information was used. Surely having a clear view on the German production of tanks could make a great difference to balance a counter strategy.
-These tanks were built out of parts with imprinted serial numbers in an ascending sequence, thus, when a tank has been distroyed Allied forces gained access to these serial numbers.
+During World War II Allied forces tried to defeat Germany and in order to do so any information was used. Surely having a clear view on the German production of tanks could make a great difference to balance a counter strategy.\\
+These tanks were built out of parts with imprinted serial numbers in an ascending sequence, thus, when a tank has been distroyed Allied forces gained access to these serial numbers.\\
 With this information statisticians have been able to estimate how many tanks were produced.
 
 ## Problem definition
 
-Assuming we have a population of unknown size $N$, which is labeled using serial number ${1,\cdots,N}$ and a random sample $X = (X_1,\cdots,X_k)$ of size $k\leq N$ is observed.
+Assuming we have a population of unknown size $N$, which is labeled using serial number ${1,\cdots,N}$ and a random sample $X = (X_1,\cdots,X_k)$ of size $k\leq N$ is observed.\\
 How could we make an inference of $N$ through the observations $X$?
 
