@@ -22,6 +22,11 @@ $$
   \let\emptyset\varnothing
 $$
 
+## Introduction
+
+During World War II Allied forces tried to defeat Germany. In order to do so any information was used. Surely having a clear view on the German production of tanks could make a great difference to balance a counter strategy.\\
+
+
 ## Problem definition
 
 German tanks in World War II had several parts with serial numbers.
