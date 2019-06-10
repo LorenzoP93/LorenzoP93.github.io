@@ -44,6 +44,10 @@ More observation we have the better will be the estimate, where the maximum like
 
 ![](../../figures/Frequentist_German_Tank_Problem/Int_11.png width="200" align="left")
 
+<p align="left">
+  <img width="100" height="100" src=src="../figures/Frequentist German Tank Problem/Int_11.png/100/100"></img>
+</p>
+
 <img align="left" src="../figures/Frequentist German Tank Problem/Int_11.png" width="200" >
 <img align="left" src="../figures/Frequentist German Tank Problem/Int_22.png" width="200" >
 
