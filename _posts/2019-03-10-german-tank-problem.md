@@ -40,7 +40,11 @@ thus the likelihood function for the sample of $k$ tanks (assuming they are an i
 
 $$\mathcal {L} (N; x_1, \cdots,x_k) ={\begin{cases}{\frac {1}{N^k}}&\mathrm {for} \ \mathrm {max} (x_i)\leq N,\\[8pt]0&\mathrm {otherwise} \end{cases}}$$
 
-More observation we have the better will be the estimate, where the maximum likelihood estimator of $N$ is $M = \mathrm {max} (x_1, \cdots,x_k)$, the largest serial number.\\
+More observation we have the better will be the estimate, where the maximum likelihood estimator of $N$ is $M = \mathrm {max} (x_1, \cdots,x_k)$, the largest serial number. The likelihood function looks like the below when 10 tanks have been knocked out (getting more evidence, we update our beliefs):\\
+
+<img src="../figures/Frequentist German Tank Problem/Int_1.png" style="width: 300px;margin-right: 10px" img align="left">
+<img src="../figures/Frequentist German Tank Problem/Int_2.png" style="width: 300px;margin-right: 10px" img align="left">
+
 Intuitively $M$ is a bad estimator because it will underestimate $N$ on average. To compute the bias we have to derive the expectation of $M$, so let's start by finding out the CDF of $M$, for $x \geq k$ it is:
 
 $$\begin{align} F_M(x) &= \Prb(X_1 \leq x,\cdots, X_k \leq x) \\ &= \Prb(X_1 \leq x)\Prb(X_2 \leq x | X_1 \leq x)\ldots  \Prb(X_k \leq x | X_i \leq x \, \forall i = 1, \cdots, k - 1) \\ &= \frac {x}{N}\cdots \frac {x-k+1}{N-k+1} = \frac {\binom{x}{k}}{\binom{N}{k}}  \end{align} $$
