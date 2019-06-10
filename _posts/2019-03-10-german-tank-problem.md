@@ -42,14 +42,9 @@ $$\mathcal {L} (N; x_1, \cdots,x_k) ={\begin{cases}{\frac {1}{N^k}}&\mathrm {for
 
 More observation we have the better will be the estimate, where the maximum likelihood estimator of $N$ is $M = \mathrm {max} (x_1, \cdots,x_k)$, the largest serial number. The likelihood function looks like the below when 10 tanks have been knocked out (getting more evidence, we update our beliefs):
 
-![](../../figures/Frequentist_German_Tank_Problem/Int_11.png width="200" align="left")
+![](../../figures/Frequentist_German_Tank_Problem/Int_11.png )
+![](../../figures/Frequentist_German_Tank_Problem/Int_22.png )
 
-<p align="left">
-  <img width="100" height="100" src=src="../figures/Frequentist German Tank Problem/Int_11.png/100/100"></img>
-</p>
-
-<img align="left" src="../figures/Frequentist German Tank Problem/Int_11.png" width="200" >
-<img align="left" src="../figures/Frequentist German Tank Problem/Int_22.png" width="200" >
 
 Intuitively $M$ is a bad estimator because it will underestimate $N$ on average. To compute the bias we have to derive the expectation of $M$, so let's start by finding out the CDF of $M$, for $x \geq k$ it is:
 
