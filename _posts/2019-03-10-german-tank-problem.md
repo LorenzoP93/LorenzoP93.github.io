@@ -42,7 +42,7 @@ $$\mathcal {L} (N; x_1, \cdots,x_k) ={\begin{cases}{\frac {1}{N^k}}&\mathrm {for
 
 More observation we have the better will be the estimate, where the maximum likelihood estimator of $N$ is $M = \mathrm {max} (x_1, \cdots,x_k)$, the largest serial number. The likelihood function looks like the below when 10 tanks have been knocked out (getting more evidence, we update our beliefs):
 
-![](../../figures/Frequentist_German_Tank_Problem/Int_11.png)
+![](../../figures/Frequentist_German_Tank_Problem/Int_11.png width="200" align="left")
 
 <img align="left" src="../figures/Frequentist German Tank Problem/Int_11.png" width="200" >
 <img align="left" src="../figures/Frequentist German Tank Problem/Int_22.png" width="200" >
