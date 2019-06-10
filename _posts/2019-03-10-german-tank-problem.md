@@ -70,7 +70,7 @@ $$ \begin{align} \Expect[M] = \frac {\sum_{x = k}^N x\binom{x-1}{k-1}}{\binom{N}
   
 $$\hat{N} = M\frac{k+1}{k}-1$$
 
+Below a plot of the residuals for the estimate $\hat{N}$, given an increasing number of observations from 10 to 500:
 
-
-
+![](../../figures/Frequentist_German_Tank_Problem/Int_33.PNG )
 
